@@ -1,0 +1,39 @@
+body {
+    background-image: url(bg.png);
+}
+.utama{
+    width: 900px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.navigasi{
+    padding: 3px;
+    background-color: antiquewhite;
+}
+.navigasi ul li{
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.navigasi a{
+    text-decoration: none;
+    color: blue;
+    padding: 3px;
+}
+.navigasi a:hover {
+    background-color: blue;
+    color: white;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer {
+    background-color:gray;
+    padding: 10px;
+}
+.footer .copy {
+    color: honeydew;
+    text-align: center;
+    font-size: 12px;
+}
