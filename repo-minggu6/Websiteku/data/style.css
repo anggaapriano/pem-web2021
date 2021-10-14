@@ -1,0 +1,134 @@
+body {
+    background-image: url(bg.png);
+}
+.utama{
+    width: 900px;
+    margin: auto;
+    background-color: aliceblue;
+}
+nav{
+    height: 43px;
+    background-color: antiquewhite;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: rgb(0, 217, 255);
+    color: #313131;
+}
+.active {
+    background-color: rgb(255, 0, 140);
+}
+.foto{
+    border-radius: 50%;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer {
+    background-color:gray;
+    padding: 10px;
+}
+.footer .copy {
+    color: honeydew;
+    text-align: center;
+    font-size: 12px;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0039b3;
+    color: white;
+    text-align: center;
+}
+/* form */
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #0039b3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=file],
+select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #0039b3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0039b3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.divform {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.divform .tab {
+    padding-left: 50px;
+}
